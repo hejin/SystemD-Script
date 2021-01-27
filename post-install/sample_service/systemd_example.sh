@@ -3,7 +3,7 @@
 # CMD is the actual command that runs the service (e.g. httpd)
 
 SERVICE_DIR=/opt/sample_script
-CMD="$SERVICE_DIR/sample_service"
+CMD="$SERVICE_DIR/sample_service.sh"
 SERVICE_NAME=SampleService
 PID_FILE_DIR=/var/run/sample_service
 PID_FILE=${PID_FILE_DIR}/sample.pid
